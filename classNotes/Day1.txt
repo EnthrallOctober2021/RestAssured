@@ -1,0 +1,38 @@
+DataBase Operation:
+Select
+Insert (Create)
+Update
+Delete
+
+CURD	      HTTP Method (API calls) 
+C - Create  - POST - Payload (Body) - JSON/XML, HTML
+U - Update  - PUT - Payload (Body) - JSON/XML, HTML
+R - Read    - GET
+D - Delete  - DELETE
+
+API Headers
+Authorization
+Content Type
+Params
+{}
+
+HTTP Status Code:
+200--201 (Sucessfully created) success calls, 204 (Successfully fetch data)
+300--301 redirection
+400--client side error (Customer side error)
+500--server side error (kitchen side error)
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods
+https://www.redhat.com/en/topics/integration/whats-the-difference-between-soap-rest
+
+Difference between param and headers, params appending into url
+Swagger - basic doc/ide for API calls
+
+Quote - POST www.somedomain.com/quote
+Coverage - GET
+Discount - GET
+Payment Options - GET
+Acknowledge - GET
+IAgree - POST
+Payment - POST
+BIND - GET
