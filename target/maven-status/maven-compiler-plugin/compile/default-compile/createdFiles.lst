@@ -1,0 +1,7 @@
+com\reqres\qa\utils\CreateJson.class
+com\reqres\qa\apis\DeleteUserAPI.class
+com\reqres\qa\utils\JsonPathClass.class
+com\reqres\qa\utils\ReadExcel.class
+com\reqres\qa\apis\UpdateAPI.class
+com\reqres\qa\apis\ListUserAPI.class
+com\reqres\qa\utils\ReadConfig.class

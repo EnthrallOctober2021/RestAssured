@@ -1,0 +1,6 @@
+com\reqres\test\apis\DataProviderTest.class
+com\reqres\qa\users\day1\Create.class
+com\reqres\test\apis\UpdateApiTest.class
+com\reqres\qa\users\day1\ListUsers.class
+com\reqres\test\apis\DeleteUserApiTest.class
+com\reqres\test\apis\ListUserApiTest.class

@@ -1,0 +1,12 @@
+For JDBC connection
+1. Maven dependency (Oracle - Ojdbc8 (19c), MySql - mysql connector)
+2. Register driver (Class.forName("oracel.jdbc.drive.OracleDriver") (DriverManager.registerDriver(new Oracle.jdbcd.driver.OracleDriver))
+3. Connection = new Connection("user/pass@hostname:port:db")
+4. Statements = new Statements(sql queries)
+5. ResultSet = Statements return a result set
+
+What include in API testing?
+ - Expected Result Validate
+ - StatusCode validation
+ - Error Code validation
+ - parse some value from response and passed those to the next call

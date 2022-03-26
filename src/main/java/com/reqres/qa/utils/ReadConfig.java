@@ -9,6 +9,7 @@ public class ReadConfig {
 	private String baseUri;
 	private String updateApi;
 	private String listUserAPI;
+	private String excelPath;
 	
 	private String jsonFilePath;
 	private String path = "./configuration/config.properties";
@@ -36,6 +37,7 @@ public class ReadConfig {
 			updateApi = properties.getProperty("updateApi");
 			jsonFilePath = properties.getProperty("jsonFilePath");
 			listUserAPI = properties.getProperty("listUserAPI");
+			excelPath = properties.getProperty("excelFilePath");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -55,5 +57,9 @@ public class ReadConfig {
 	
 	public String getJsonFilePath() {
 		return jsonFilePath;
+	}
+	
+	public String getExcelFilePath() {
+		return excelPath;
 	}
 }

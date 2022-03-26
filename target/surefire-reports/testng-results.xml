@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="4907" started-at="2022-03-23T02:33:52Z" finished-at="2022-03-23T02:33:57Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="4907" started-at="2022-03-23T02:33:52Z" finished-at="2022-03-23T02:33:57Z">
+      <class name="com.reqres.test.apis.DeleteUserApiTest">
+        <test-method status="PASS" signature="deleteUserTest()[pri:0, instance:com.reqres.test.apis.DeleteUserApiTest@39ba5a14]" name="deleteUserTest" duration-ms="556" started-at="2022-03-22T22:33:56Z" finished-at="2022-03-22T22:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method status="PASS" signature="initClass()[pri:0, instance:com.reqres.test.apis.DeleteUserApiTest@39ba5a14]" name="initClass" is-config="true" duration-ms="0" started-at="2022-03-22T22:33:56Z" finished-at="2022-03-22T22:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClass -->
+      </class> <!-- com.reqres.test.apis.DeleteUserApiTest -->
+      <class name="com.reqres.test.apis.DataProviderTest">
+        <test-method status="PASS" signature="initClasses()[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="initClasses" is-config="true" duration-ms="5" started-at="2022-03-22T22:33:53Z" finished-at="2022-03-22T22:33:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClasses -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="dataProviderTest" duration-ms="2378" started-at="2022-03-22T22:33:53Z" data-provider="userData" finished-at="2022-03-22T22:33:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lobid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Director]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="initClasses()[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="initClasses" is-config="true" duration-ms="0" started-at="2022-03-22T22:33:55Z" finished-at="2022-03-22T22:33:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClasses -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="dataProviderTest" duration-ms="299" started-at="2022-03-22T22:33:55Z" data-provider="userData" finished-at="2022-03-22T22:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tofael]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[HR]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="initClasses()[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="initClasses" is-config="true" duration-ms="0" started-at="2022-03-22T22:33:56Z" finished-at="2022-03-22T22:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClasses -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="dataProviderTest" duration-ms="276" started-at="2022-03-22T22:33:56Z" data-provider="userData" finished-at="2022-03-22T22:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rezwan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Daddy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="dataProviderTest" duration-ms="254" started-at="2022-03-22T22:33:56Z" data-provider="userData" finished-at="2022-03-22T22:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="initClasses()[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="initClasses" is-config="true" duration-ms="0" started-at="2022-03-22T22:33:56Z" finished-at="2022-03-22T22:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClasses -->
+        <test-method status="PASS" signature="dataProviderTest(java.lang.String, java.lang.String)[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="dataProviderTest" duration-ms="246" started-at="2022-03-22T22:33:56Z" data-provider="userData" finished-at="2022-03-22T22:33:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Towkeer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Student]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataProviderTest -->
+        <test-method status="PASS" signature="initClasses()[pri:0, instance:com.reqres.test.apis.DataProviderTest@36d64342]" name="initClasses" is-config="true" duration-ms="0" started-at="2022-03-22T22:33:56Z" finished-at="2022-03-22T22:33:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClasses -->
+      </class> <!-- com.reqres.test.apis.DataProviderTest -->
+      <class name="com.reqres.test.apis.ListUserApiTest">
+        <test-method status="PASS" signature="initClasses()[pri:0, instance:com.reqres.test.apis.ListUserApiTest@511baa65]" name="initClasses" is-config="true" duration-ms="2" started-at="2022-03-22T22:33:57Z" finished-at="2022-03-22T22:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClasses -->
+        <test-method status="PASS" signature="testListUserApi()[pri:0, instance:com.reqres.test.apis.ListUserApiTest@511baa65]" name="testListUserApi" duration-ms="96" started-at="2022-03-22T22:33:57Z" finished-at="2022-03-22T22:33:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListUserApi -->
+      </class> <!-- com.reqres.test.apis.ListUserApiTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

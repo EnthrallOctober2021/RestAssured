@@ -1,8 +1,7 @@
 package com.reqres.test.apis;
 
-import org.junit.Before;
-import org.junit.Test;
-
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import com.reqres.qa.apis.DeleteUserAPI;
 import com.reqres.qa.utils.JsonPathClass;
 
@@ -11,7 +10,7 @@ public class DeleteUserApiTest {
 	DeleteUserAPI deleteUserAPI;
 	JsonPathClass jPath;
 	
-	@Before
+	@BeforeMethod
 	public void initClass() {
 		deleteUserAPI = new DeleteUserAPI();
 	}

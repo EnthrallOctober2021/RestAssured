@@ -1,7 +1,7 @@
 package com.reqres.test.apis;
 
-import org.junit.Before;
-import org.junit.Test;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 import com.reqres.qa.apis.ListUserAPI;
 import com.reqres.qa.utils.JsonPathClass;
 
@@ -10,7 +10,7 @@ public class ListUserApiTest {
 	ListUserAPI listUserApi;
 	JsonPathClass jPath;
 	
-	@Before
+	@BeforeMethod
 	public void initClasses() {
 		listUserApi = new ListUserAPI();
 	}
